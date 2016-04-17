@@ -1,0 +1,4 @@
+﻿name: QA2
+status: failed
+workdir: test/qachanged
+logdir: test/qa2/logs

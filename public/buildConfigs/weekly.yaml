@@ -1,0 +1,4 @@
+﻿name: Weekly
+status: failed
+workdir: test/qachanged
+logdir: test/qa2/logs

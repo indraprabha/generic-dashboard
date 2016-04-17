@@ -1,0 +1,28 @@
+{>"layouts/master" /}
+
+{<body}
+    <ul class="nav nav-tabs nav-justified">
+      <li class="active"><a data-toggle="tab" href="#env_widget_scroll_container">Environments</a></li>
+      <li><a data-toggle="tab" href="#build_widget_scroll_container">Builds</a></li>
+    </ul>
+    <div class="tab-content">
+        {?env}
+        <div id="env_widget_scroll_container" class="widget_scroll_container tab-pane fade in active">
+            <div class="widget_container full">
+            {#env}
+                {>tile /}
+            {/env}
+            </div>
+        </div>
+        {/env}         
+        {?build}
+        <div id="build_widget_scroll_container" class="widget_scroll_container tab-pane fade">
+            <div class="widget_container full">
+            {#build}
+                {>tile /}
+            {/build}
+            </div>
+        </div>
+        {/build}         
+    </div>
+{/body}

@@ -1,0 +1,13 @@
+{
+  "generator-kraken": {
+    "taskModule": "grunt",
+    "description": "Build & Environment Dashboard",
+    "author": "Karthik Kolappan",
+    "templateModule": "makara",
+    "i18n": "i18n",
+    "componentPackager": "bower",
+    "cssModule": false,
+    "jsModule": false,
+    "useJson": null
+  }
+}

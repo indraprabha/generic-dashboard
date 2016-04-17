@@ -1,0 +1,4 @@
+﻿name: Test
+status: in-progress
+debuglvl: 3
+logdir: "test/logs"

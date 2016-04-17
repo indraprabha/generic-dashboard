@@ -1,0 +1,27 @@
+
+<!-- This dust file needs to be compiled on change, using dustc command 
+"dustc ./public/templates/tile.dust > ./public/templates/compiled.js" -->
+
+    <div id="{id}_container" class="widget widget_custom widget_{color}">
+        <div class="widget_content">                
+            <div class="main">
+                <div class="tile-header">
+                    {name}
+                    <input type="hidden" id="{id}_config_path" name="config_path" value="{__path}">
+                    <input type="hidden" id="{id}_config_type" name="config_type" value="{__type}">
+                    <input onclick="refreshTile(this.id)" class="refresh-icon" id="{id}_refresh" type="image" src="/images/refresh.png" alt="Refresh"/>
+                </div>
+                <div class="tile-content">
+                    <input type="checkbox" id="{id}_load_more" role="button">
+                    <label id="{id}_load_more_label"  for="{id}_load_more">
+                        <span class="glyphicon glyphicon-chevron-down"></span>
+                        <span class="glyphicon glyphicon-chevron-up"></span>
+                    </label>  
+                    <div class="yaml-content" id="{id}_yaml_content">
+                        {fileContent}
+                    </div>
+                    <br/><br/>
+                </div>
+            </div>
+        </div>
+    </div>

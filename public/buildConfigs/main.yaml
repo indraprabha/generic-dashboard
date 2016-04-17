@@ -1,0 +1,8 @@
+﻿name: Main
+logdir: test/dev-env/logs
+status: complete
+workdir: test/dev-env
+loglevel: INFO
+env: development
+webhost: 10.230.45.9
+ftpserver: 10.230.45.8

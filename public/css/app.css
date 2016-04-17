@@ -1,0 +1,39 @@
+
+body {
+    background-color: #003b63;
+    color:  whitesmoke;
+    text-align: center;
+    font-size: small;
+}
+header {
+    background-color: black;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tile-header {
+    font-size: larger;
+    font-weight: bold;
+    background-color: black;
+    margin: 0px;
+    padding: 5px;
+}
+
+div.widget div.widget_content {
+    overflow: visible;
+}
+div.widget div.main {
+    height: inherit;
+    overflow: visible;
+}
+
+.widget_scroll_container {
+    position:  relative;
+    overflow: visible;
+}
+
+.navbar-brand > img {
+    width: 90px;
+}
